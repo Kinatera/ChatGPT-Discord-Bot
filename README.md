@@ -1,5 +1,5 @@
 # ChatGPT-Discord-Bot
-I've been searching around for a discord bot that's simple, replies to every message, and is easily configurable. (Whilst also using the cheaper GPT 3.5 Turbo model) But I wasn't able to find any, I only found ones that replied to commands and had no chat history. So I took tidbits of code from everywhere, pieced it together and viola! This code was made for use on Replit btw.
+I've been searching around for a discord bot that's simple, replies to every message, and is easily configurable. (Whilst also using the cheaper GPT 3.5 Turbo model) But I wasn't able to find any from searching on google, I only found ones that replied to commands and had no chat history. So I took tidbits of code from everywhere, pieced it together and viola! This code was made for use on Replit btw.
 
 # How can I use ChatGPT 4.0 with this? (PS: this might not work as I have not tested it with GPT-4, as I don't have API access to it)
 I'm surprised you're even asking, because anyone with early ChatGPT 4.0 API access should really be more informed about coding than me (I'm a complete amateur!) but here's a way:
