@@ -39,22 +39,20 @@ You have now successfully made the discord bot, the next step is to get your Ope
 1 - Head over to https://platform.openai.com/account/api-keys and make a new secret key, make sure to save this as you can not get it again and must generate a new key.
 
 # Last thing to do is: Set it up on Replit
-So you've made it this far, there are only a few more steps ahead. (PS. Make a replit account or use your google account to sign in)
+1 - Head over to https://replit.com/~ and click on "Create Repl" in the top-left corner. Name it however you'd like and choose the template as "Python".
 
-1 - Head over to https://replit.com/~ and press "Create Repl" in the top-left, name it however you'd like and choose the template as "Python"
+2 - Copy and paste the code from https://raw.githubusercontent.com/Kinatera/ChatGPT-Discord-Bot/main/main.py into the "main.py" file in your Repl.
 
-2 - Copy and paste the code from https://raw.githubusercontent.com/Kinatera/ChatGPT-Discord-Bot/main/main.py into the replit main.py
+3 - Edit the "botname", "botchannel", and "botinstructions" variables to customize your bot's name, channel, and instructions. If you're not sure what you're doing, it's best to leave the "botinstructions" variable as is.
 
-3 - Edit the botname, botchannel and botinstructions to however you want. (only touch the botinstructions if you know what you're doing)
+4 - On the bottom left of your screen in the Repl, you'll see a lock icon labeled "Secrets". Click on it.
 
-4 - On the bottom left of your screen on the replit site, there's a lock key with secrets under it, press it.
+5 - Create four secrets with the following values: "OPENAI_KEY", "OPENAI_KEY2", "DISCORD_TOKEN", and "DISCORD_TOKEN2".
 
-5 - Make 4 secrets, with their values being:
-OPENAI_KEY, OPENAI_KEY2, DISCORD_TOKEN, DISCORD_TOKEN2
-6 - Make the key inside of OPENAI_KEY the key you'd saved before from step 1 in the OpenAI Setup section.
+6 - Set the value for "OPENAI_KEY" to the key you saved earlier from step 1 in the OpenAI Setup section.
 
-7 - Make the key inside of DISCORD_TOKEN the token you'd saved before from step 4 in the Discord Setup section.
+7 - Set the value for "DISCORD_TOKEN" to the token you saved earlier from step 4 in the Discord Setup section.
 
-8 - Delete the 2 secrets with a 2 at the end of them, including line 6 and line 8 in main.py unless if you have another OpenAI key or another Discord bot token, set them as instructed previously but now as the OPENAI_KEY2 secret and the DISCORD_TOKEN2 secret.
+8 - Delete the two secrets with "2" at the end of their names, as well as lines 6 and 8 in "main.py", unless you have another OpenAI key or another Discord bot token. If you do, set them as instructed earlier, but now as the "OPENAI_KEY2" secret and the "DISCORD_TOKEN2" secret.
 
-9 - Press run on replit and send a message in a discord channel the bot has access to, and it should reply! Have fun :)
+Press "Run" in your Repl and send a message in a Discord channel the bot has access to. Your bot should reply! Have fun :)
