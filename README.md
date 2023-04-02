@@ -9,7 +9,7 @@ Go to the 45th line of code, and change the model from "gpt-3.5-turbo" to "gpt-4
 model="gpt-4",  # The name of the OpenAI chatbot model to use
 
 # If you want to improve the code:
-Just make a pull request! And by improving the code it can be from anything as simple as making the comments clearer to even making the chat history a maximum of 10 messages to make sure you don't reach the prompt token limit, just make sure you explain what the code you have changed will do, and send a pull request!
+Just fork the repo, change the code, and then make a pull request with your edited forked repo! And by improving the code it can be from anything as simple as making the comments clearer to even making the chat history a maximum of 10 messages to make sure you don't reach the prompt token limit, just make sure you explain what the code you have changed will do, and send a pull request!
 
 PS: make sure you've tested the code and it works
 
