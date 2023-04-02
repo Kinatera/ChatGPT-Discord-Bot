@@ -8,7 +8,7 @@ Go to the 45th line of code, and change the model from "gpt-3.5-turbo" to "gpt-4
 model="gpt-4",  # The name of the OpenAI chatbot model to use
 
 # How can I start it up as a discord bot?
-Good question, I'll try to make the steps nice and tidy, but I'm not that good:
+Good question, I'll try to make the steps nice and tidy, but I'm not that good:\n
 1 - Go to https://discord.com/developers/applications (and make sure you're signed in)
 2 - Make an application by hitting the top-right button and name it however you'd like.
 3 - After having created your application, look to the left-side of the screen and press the third option, which should be: "Bot"
