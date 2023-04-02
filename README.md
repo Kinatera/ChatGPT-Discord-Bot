@@ -11,32 +11,33 @@ model="gpt-4",  # The name of the OpenAI chatbot model to use
 # How can I start it up as a discord bot?
 Good question, I'll try to make the steps nice and tidy, but I'm not that good:
 
-1 - Go to https://discord.com/developers/applications (and make sure you're signed in)
+1 - Go to https://discord.com/developers/applications (make sure you're signed in).
 
-2 - Make an application by hitting the top-right button and name it however you'd like.
+2 - Click the top-right button to create a new application, and give it a name.
 
-3 - After having created your application, look to the left-side of the screen and press the third option, which should be: "Bot"
+3 - After creating the application, click on the "Bot" option on the left side of the screen.
 
-4 - This is important, before doing anything else under the section for the username for your bot there's a "Token" section, press copy and save it somewhere safe for a later-on step.
+4 - Under the "Username" section, you'll find the "Token" section. Click "Copy" to save the bot token somewhere safe for later use.
 
-5 - Name your bot however you'd like it to appear as on discord
+5 - Back in the "Username" section, choose a name for your bot, which is how it will appear in Discord.
 
-6 - Scroll down to "Privileged Gateway Intents" and turn on all 3 intents
+6 - Scroll down to "Privileged Gateway Intents" and turn on all 3 intents.
 
-7 - Click on OAuth2 on the left-hand side of the page, under it should appear two options, pick "URL Generator"
+7 - Click on "OAuth2" on the left side of the page, and then under it: click on "URL Generator".
 
-8 - Give it the Bot scope
+8 - Under "Scopes", choose the "Bot" scope.
 
-9 - Give it these following permissions:
+9 - Under "Permissions", select the following permissions: 
+"Read Messages/View Channels" under General Permissions, and ALL of the permissions under Text Permissions.
 
-General Permissions: Read Messages/View Channels, Text Permissions: All of them
-10 - Generate the link and invite the bot to the server of your choosing.
-10.1 - Give the bot permission to view only a few channels so the users don't abuse it and spam it, this way you don't lose as many tokens as normal.
+10 - Generate the link and invite the bot to your server of choice.
 
-You have now successfully made the discord bot, the next step is to get your OpenAI key, which requires an account on https://openai.com
+10.1 Make sure to only give the bot permission to view the channels it needs, to avoid abuse or spam.
+
+Congratulations, you have now successfully created your Discord bot! The next step is to get your OpenAI key, which requires an account on https://openai.com.
 
 # Setting it up from the OpenAI side
-1 - Head over to https://platform.openai.com/account/api-keys and make a new secret key, make sure to save this as you can not get it again and must generate a new key.
+1 - Go to https://platform.openai.com/account/api-keys and create a new secret key. Make sure to save this key, as it cannot be retrieved later and you will need it in the setup process.
 
 # Last thing to do is: Set it up on Replit
 1 - Head over to https://replit.com/~ and click on "Create Repl" in the top-left corner. Name it however you'd like and choose the template as "Python".
